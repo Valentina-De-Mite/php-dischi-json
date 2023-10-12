@@ -24,7 +24,7 @@
 <header> 
     <nav class="navbar navbar-expand navbar-light bg-dark">
         <div class="nav navbar-nav">
-            <img src="./assets/img/spotify-logo-png-7053.png" class="w-25 p-3" alt="" srcset="">g
+            <img src="./assets/img/spotify-logo-png-7053.png" class="w-25 p-3" alt="" srcset="">
         </div>
     </nav>
 </header>
