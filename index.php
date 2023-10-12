@@ -22,7 +22,7 @@
 <div id="app">
 
 <header> 
-    <nav class="navbar navbar-expand navbar-light bg-dark">
+    <nav class="navbar navbar-expand  ">
         <div class="nav navbar-nav">
             <img src="./assets/img/spotify-logo-png-7053.png" class="w-25 p-3" alt="" srcset="">
         </div>
@@ -31,15 +31,14 @@
 
 <main>
             <div class="container mt-5">
-
                 <div class="row g-5">
                     <div v-for="song in songs" class="col-4">
                         <div class="card d-flex flex-column justify-content-center align-items-center py-3">
                             <div class="d-flex ">
-                                <img class="img-fluid" :src="song.poster" alt="">
+                                <img class="img-fluid m-auto w-75" :src="song.poster" alt="">
                             </div>
 
-                            <h4 class="text-center">{{song.title}}</h4>
+                            <h4 class="text-center mt-4">{{song.title}}</h4>
                             <p>{{song.author}}</p>
                             <h4>{{song.year}}</h4>
 

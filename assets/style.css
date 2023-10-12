@@ -9,4 +9,5 @@ body {
 .card {
   background-color: #112030;
   color: white;
+  height: 100%;
 }
